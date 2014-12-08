@@ -1,0 +1,707 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                              TermProject.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                              TermProject.o (__udivmodqi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                              TermProject.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                              TermProject.o (__divmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                              TermProject.o (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+                              TermProject.o (__divmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                              TermProject.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+                              TermProject.o (rand)
+
+Allocating common symbols
+Common symbol       size              file
+
+obj_me_musicnotes   0x10              TermProject.o
+TOUR_uwaaang_width_start
+                    0x2               TOUR.o
+TOUR_enabled        0x1               TOUR.o
+unused_objects_OLED
+                    0x2               OLED.o
+me                  0x2               TermProject.o
+next_judge_end_frame
+                    0x2               TermProject.o
+animation_end       0x1               TermProject.o
+first_object_OLED   0x2               OLED.o
+current_object_OLED
+                    0x2               OLED.o
+obj_hearts          0x10              TermProject.o
+effect              0x2               TermProject.o
+judged              0x1               TermProject.o
+com                 0x2               TermProject.o
+z_heads_OLED        0x8               OLED.o
+z_tails_OLED        0x8               OLED.o
+TOUR_uwaaang_width_end
+                    0x2               TOUR.o
+TIMER3_tick         0x1               TIMER3.o
+animation_num       0x1               TermProject.o
+animation_idx       0x1               TermProject.o
+obj_com_musicnotes  0x10              TermProject.o
+me_danced           0x1               TermProject.o
+TOUR_current_score  0x2               TOUR.o
+TOUR_uwaaang_duration
+                    0x2               TOUR.o
+objects_OLED        0x230             OLED.o
+dance_count         0x1               TermProject.o
+TOUR_current_width  0x2               TOUR.o
+TOUR_tick           0x4               TOUR.o
+score_num           0xa               TermProject.o
+animation_frame     0x2               TermProject.o
+judge_comframe      0x1               TermProject.o
+obj_score           0x2               TermProject.o
+TIMER3_current_frame
+                    0x2               TIMER3.o
+bitmaps_OLED        0x12c             OLED.o
+next_dance_frame    0x2               TermProject.o
+TOUR_current_data   0x2               TOUR.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800060         0x0000ffa0         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000400         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+LOAD TermProject.o
+LOAD TextLCD.o
+LOAD TextLCD_Buffer.o
+LOAD TOUR.o
+LOAD OLED.o
+LOAD TIMER3.o
+LOAD imagesData.o
+LOAD imageData2.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x59ec
+ *(.vectors)
+ .vectors       0x00000000       0x8c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table
+                0x0000008c       0x64 TermProject.o
+ *(.progmem*)
+ .progmem.data  0x000000f0      0x200 imagesData.o
+                0x00000130                progmem_FOUR
+                0x00000160                progmem_SEVEN
+                0x00000170                progmem_EIGHT
+                0x00000140                progmem_FIVE
+                0x00000100                progmem_ONE
+                0x000000f0                progmem_ZERO
+                0x00000190                progmem_arm
+                0x00000110                progmem_TWO
+                0x00000180                progmem_NINE
+                0x00000290                progmem_img_score
+                0x00000120                progmem_THREE
+                0x00000150                progmem_SIX
+ .progmem.data  0x000002f0     0x14d0 imageData2.o
+                0x00000fa0                progmem_img_over
+                0x000006f0                progmem_dudumchit
+                0x000007f0                progmem_GOOD
+                0x00000ef8                progmem_life
+                0x00000f80                progmem_musicnote
+                0x000017a0                progmem_nonote
+                0x000002f0                progmem_BAD
+                0x00000f60                progmem_lifebroken
+                0x00000bf0                progmem_MISS
+                0x000013a0                progmem_img_over2
+                0x000009f0                progmem_heart3
+                0x00000f20                progmem_comboIMG
+                0x00000af0                progmem_jackson
+                0x000005f0                progmem_die
+                0x00000df8                progmem_superman
+                0x000008f0                progmem_GREAT
+                0x000003f0                progmem_basic1
+                0x00000cf8                progmem_perfect
+                0x000004f0                progmem_beside
+                0x000017c0                . = ALIGN (0x2)
+                0x000017c0                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x000017c0        0x0 linker stubs
+ *(.trampolines*)
+                0x000017c0                __trampolines_end = .
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x000017c0                __ctors_start = .
+ *(.ctors)
+                0x000017c0                __ctors_end = .
+                0x000017c0                __dtors_start = .
+ *(.dtors)
+                0x000017c0                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x000017c0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000017c0                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x000017c0        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x000017cc       0x1a c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000017cc                __do_copy_data
+ .init4         0x000017e6       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+                0x000017e6                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x000017f6        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ *(.init9)
+ *(.text)
+ .text          0x000017fe        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+                0x000017fe                __vector_22
+                0x000017fe                __vector_28
+                0x000017fe                __vector_1
+                0x000017fe                __vector_32
+                0x000017fe                __vector_34
+                0x000017fe                __vector_24
+                0x000017fe                __vector_12
+                0x000017fe                __bad_interrupt
+                0x000017fe                __vector_6
+                0x000017fe                __vector_31
+                0x000017fe                __vector_3
+                0x000017fe                __vector_23
+                0x000017fe                __vector_30
+                0x000017fe                __vector_25
+                0x000017fe                __vector_11
+                0x000017fe                __vector_13
+                0x000017fe                __vector_17
+                0x000017fe                __vector_19
+                0x000017fe                __vector_7
+                0x000017fe                __vector_27
+                0x000017fe                __vector_5
+                0x000017fe                __vector_33
+                0x000017fe                __vector_4
+                0x000017fe                __vector_9
+                0x000017fe                __vector_2
+                0x000017fe                __vector_21
+                0x000017fe                __vector_15
+                0x000017fe                __vector_29
+                0x000017fe                __vector_8
+                0x000017fe                __vector_14
+                0x000017fe                __vector_10
+                0x000017fe                __vector_16
+                0x000017fe                __vector_18
+                0x000017fe                __vector_20
+ .text          0x00001802     0x3fd0 TermProject.o
+                0x00002d06                btn_pressed
+                0x00002886                game_dance
+                0x00002164                doeffect
+                0x00002462                game_over
+                0x00001802                createHearts
+                0x0000243e                clearLCD
+                0x00002c12                game_start
+                0x00002562                game_animation
+                0x000018f4                refreshHearts
+                0x00003028                main
+                0x00001958                CreateObjectsMain
+                0x00002750                makeComputerDances
+                0x00002c66                game_stopped
+ .text          0x000057d2        0x0 TextLCD.o
+ .text          0x000057d2        0x0 TextLCD_Buffer.o
+ .text          0x000057d2        0x0 TOUR.o
+ .text          0x000057d2        0x0 OLED.o
+ .text          0x000057d2       0x22 TIMER3.o
+                0x000057d2                __vector_26
+ .text          0x000057f4        0x0 imagesData.o
+ .text          0x000057f4        0x0 imageData2.o
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text          0x000057f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+                0x000057f4                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x000057f4       0x3e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+                0x000057f4                __mulsi3
+ .text.libgcc   0x00005832       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+                0x00005832                __udivmodqi4
+ .text.libgcc   0x0000584a       0x28 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+                0x0000584a                __udivmodhi4
+ .text.libgcc   0x00005872       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+                0x00005872                __divmodhi4
+                0x00005872                _div
+ .text.libgcc   0x00005898       0x44 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+                0x00005898                __udivmodsi4
+ .text.libgcc   0x000058dc       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+                0x000058dc                __divmodsi4
+ .text.libgcc   0x00005912        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .text.libgcc   0x00005912        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00005912       0xd6 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+                0x000059c2                rand_r
+                0x000059c8                rand
+                0x000059d2                srand
+                0x000059e8                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x000059e8        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+                0x000059e8                exit
+                0x000059e8                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x000059e8        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ *(.fini0)
+                0x000059ec                _etext = .
+
+.data           0x00800100      0x1f4 load address 0x000059ec
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .data          0x00800100      0x169 TermProject.o
+                0x00800157                WRONG
+                0x0080012d                P1
+                0x00800248                hyogwa
+                0x00800266                hearts_count
+                0x0080025d                dance_ratio
+                0x00800150                P6
+                0x00800261                def_scores
+                0x00800134                P2
+                0x0080015e                stopped_bgsound
+                0x00800267                animation_div
+                0x00800142                P4
+                0x0080013b                P3
+                0x00800251                effect_sounds
+                0x00800149                P5
+                0x00800225                close
+ .data          0x00800269        0x2 TextLCD.o
+                0x0080026a                cooldown_LCD
+                0x00800269                internalState_LCD
+ .data          0x0080026b       0x40 TextLCD_Buffer.o
+                0x0080028b                buffer_LCD
+                0x0080026b                window_LCD
+ .data          0x008002ab        0x6 TOUR.o
+                0x008002ac                TOUR_current_ticks_per_64th_note
+                0x008002b0                TOUR_remained_duration
+                0x008002ab                TOUR_current_octave
+ .data          0x008002b1        0x1 OLED.o
+                0x008002b1                triggers_OLED
+ .data          0x008002b2        0x0 TIMER3.o
+ .data          0x008002b2       0x18 imagesData.o
+                0x008002b4                ONE
+                0x008002c2                EIGHT
+                0x008002be                SIX
+                0x008002ba                FOUR
+                0x008002b8                THREE
+                0x008002bc                FIVE
+                0x008002c4                NINE
+                0x008002c6                arm
+                0x008002b6                TWO
+                0x008002c0                SEVEN
+                0x008002c8                img_score
+                0x008002b2                ZERO
+ .data          0x008002ca       0x26 imageData2.o
+                0x008002d8                heart3
+                0x008002d4                GOOD
+                0x008002e4                comboIMG
+                0x008002ea                img_over
+                0x008002d2                dudumchit
+                0x008002cc                basic1
+                0x008002e8                musicnote
+                0x008002ec                img_over2
+                0x008002de                perfect
+                0x008002da                jackson
+                0x008002ee                nonote
+                0x008002e2                life
+                0x008002d0                die
+                0x008002e6                lifebroken
+                0x008002ca                BAD
+                0x008002e0                superman
+                0x008002ce                beside
+                0x008002dc                MISS
+                0x008002d6                GREAT
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .data          0x008002f0        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .data          0x008002f0        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+ *(.data*)
+ *(.rodata)
+ *(.rodata*)
+ *(.gnu.linkonce.d*)
+                0x008002f4                . = ALIGN (0x2)
+                0x008002f4                _edata = .
+                0x008002f4                PROVIDE (__data_end, .)
+
+.bss            0x008002f4      0x3f4
+                0x008002f4                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x008002f4        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51/crtm128.o
+ .bss           0x008002f4       0x1d TermProject.o
+                0x0080030e                com_dance_num
+                0x0080030d                me_dance_num
+                0x008002f8                ready_timer
+                0x00800302                dance_frame_tick
+                0x00800303                n_comframe
+                0x00800304                dances
+                0x008002fa                score
+                0x0080030f                effect_timer
+                0x008002f6                btn_input
+                0x008002f9                tick
+                0x00800300                next_computer_dance_frame
+                0x008002f4                nstate
+                0x008002f7                before_btn_input
+                0x008002fe                combo
+                0x008002f5                nstate2
+ .bss           0x00800311        0x1 TextLCD.o
+                0x00800311                tick_LCD
+ .bss           0x00800312        0x1 TextLCD_Buffer.o
+                0x00800312                cursor_LCD
+ .bss           0x00800313        0x0 TOUR.o
+ .bss           0x00800313        0x0 OLED.o
+ .bss           0x00800313        0x0 TIMER3.o
+ .bss           0x00800313        0x0 imagesData.o
+ .bss           0x00800313        0x0 imageData2.o
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_mulsi3.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodqi4.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodhi4.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodhi4.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_udivmodsi4.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_divmodsi4.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_exit.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr51\libgcc.a(_clear_bss.o)
+ .bss           0x00800313        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr51\libc.a(rand.o)
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x00800313       0x4f TermProject.o
+                0x00800313                obj_me_musicnotes
+                0x00800323                me
+                0x00800325                next_judge_end_frame
+                0x00800327                animation_end
+                0x00800328                obj_hearts
+                0x00800338                effect
+                0x0080033a                judged
+                0x0080033b                com
+                0x0080033d                animation_num
+                0x0080033e                animation_idx
+                0x0080033f                obj_com_musicnotes
+                0x0080034f                me_danced
+                0x00800350                dance_count
+                0x00800351                score_num
+                0x0080035b                animation_frame
+                0x0080035d                judge_comframe
+                0x0080035e                obj_score
+                0x00800360                next_dance_frame
+ COMMON         0x00800362       0x11 TOUR.o
+                0x00800362                TOUR_uwaaang_width_start
+                0x00800364                TOUR_enabled
+                0x00800365                TOUR_uwaaang_width_end
+                0x00800367                TOUR_current_score
+                0x00800369                TOUR_uwaaang_duration
+                0x0080036b                TOUR_current_width
+                0x0080036d                TOUR_tick
+                0x00800371                TOUR_current_data
+ COMMON         0x00800373      0x372 OLED.o
+                0x00800373                unused_objects_OLED
+                0x00800375                first_object_OLED
+                0x00800377                current_object_OLED
+                0x00800379                z_heads_OLED
+                0x00800381                z_tails_OLED
+                0x00800389                objects_OLED
+                0x008005b9                bitmaps_OLED
+ COMMON         0x008006e5        0x3 TIMER3.o
+                0x008006e5                TIMER3_tick
+                0x008006e6                TIMER3_current_frame
+                0x008006e8                PROVIDE (__bss_end, .)
+                0x000059ec                __data_load_start = LOADADDR (.data)
+                0x00005be0                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x008006e8        0x0
+                0x008006e8                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                0x008006e8                PROVIDE (__noinit_end, .)
+                0x008006e8                _end = .
+                0x008006e8                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x40
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 TermProject.o
+ .debug_aranges
+                0x00000020       0x20 TIMER3.o
+
+.debug_pubnames
+                0x00000000      0x9ef
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x3a4 TermProject.o
+ .debug_pubnames
+                0x000003a4       0x46 TextLCD.o
+ .debug_pubnames
+                0x000003ea       0x3f TextLCD_Buffer.o
+ .debug_pubnames
+                0x00000429      0x11f TOUR.o
+ .debug_pubnames
+                0x00000548       0xae OLED.o
+ .debug_pubnames
+                0x000005f6       0x4b TIMER3.o
+ .debug_pubnames
+                0x00000641      0x152 imagesData.o
+ .debug_pubnames
+                0x00000793      0x25c imageData2.o
+
+.debug_info     0x00000000     0x1991
+ *(.debug_info)
+ .debug_info    0x00000000      0xdf1 TermProject.o
+ .debug_info    0x00000df1       0x94 TextLCD.o
+ .debug_info    0x00000e85       0xa7 TextLCD_Buffer.o
+ .debug_info    0x00000f2c      0x107 TOUR.o
+ .debug_info    0x00001033      0x247 OLED.o
+ .debug_info    0x0000127a       0x9b TIMER3.o
+ .debug_info    0x00001315      0x296 imagesData.o
+ .debug_info    0x000015ab      0x3e6 imageData2.o
+ *(.gnu.linkonce.wi.*)
+
+.debug_abbrev   0x00000000      0x575
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2aa TermProject.o
+ .debug_abbrev  0x000002aa       0x3b TextLCD.o
+ .debug_abbrev  0x000002e5       0x56 TextLCD_Buffer.o
+ .debug_abbrev  0x0000033b       0x39 TOUR.o
+ .debug_abbrev  0x00000374       0x99 OLED.o
+ .debug_abbrev  0x0000040d       0x57 TIMER3.o
+ .debug_abbrev  0x00000464       0x84 imagesData.o
+ .debug_abbrev  0x000004e8       0x8d imageData2.o
+
+.debug_line     0x00000000      0xe91
+ *(.debug_line)
+ .debug_line    0x00000000      0xb8a TermProject.o
+ .debug_line    0x00000b8a       0x4e TextLCD.o
+ .debug_line    0x00000bd8       0x55 TextLCD_Buffer.o
+ .debug_line    0x00000c2d       0x4b TOUR.o
+ .debug_line    0x00000c78       0x94 OLED.o
+ .debug_line    0x00000d0c       0x65 TIMER3.o
+ .debug_line    0x00000d71       0x90 imagesData.o
+ .debug_line    0x00000e01       0x90 imageData2.o
+
+.debug_frame    0x00000000      0x100
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xe0 TermProject.o
+ .debug_frame   0x000000e0       0x20 TIMER3.o
+
+.debug_str      0x00000000      0x83a
+ *(.debug_str)
+ .debug_str     0x00000000      0x608 TermProject.o
+                                0x73d (size before relaxing)
+ .debug_str     0x00000608        0xd TextLCD.o
+                                 0xd3 (size before relaxing)
+ .debug_str     0x00000615       0x14 TextLCD_Buffer.o
+                                 0xd3 (size before relaxing)
+ .debug_str     0x00000629        0xa TOUR.o
+                                0x14f (size before relaxing)
+ .debug_str     0x00000633        0xa OLED.o
+                                0x1d1 (size before relaxing)
+ .debug_str     0x0000063d       0x18 TIMER3.o
+                                 0xd7 (size before relaxing)
+ .debug_str     0x00000655       0xb0 imagesData.o
+                                0x18c (size before relaxing)
+ .debug_str     0x00000705      0x135 imageData2.o
+                                0x266 (size before relaxing)
+
+.debug_loc      0x00000000      0xc16
+ *(.debug_loc)
+ .debug_loc     0x00000000      0xc16 TermProject.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+OUTPUT(TermProject.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000       0x60
+ .debug_ranges  0x00000000       0x60 TermProject.o
